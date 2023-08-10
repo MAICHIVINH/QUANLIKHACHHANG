@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quản lý khách hàng</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quản lý khách hàng</h1>
+    <form id="customer-form">
+      <div class="input-container">
+        <label for="name">Họ tên:</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="input-container">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="input-container">
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <button type="submit">Thêm khách hàng</button>
+    </form>
+    <div id="customer-list" class="customer-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
